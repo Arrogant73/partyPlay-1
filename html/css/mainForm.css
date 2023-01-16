@@ -15,3 +15,10 @@
     height: 5vh;
     cursor: pointer;
 }
+
+.party input {
+    width: 31%;
+    height: 10vw;
+    margin: 1%;
+    background-color: blueviolet;
+}

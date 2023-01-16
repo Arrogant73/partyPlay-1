@@ -61,6 +61,7 @@ main {
     min-width: 650px;
     width: 65vw;
     background-color: #BBE1FA;
+    overflow: scroll;
 }
 
 .ad2 {
