@@ -18,11 +18,14 @@ header {
     font-size: 40px;
     text-align: center;
     border: 1px solid black;
+    cursor: pointer;
 }
 
 .logo {
     border: 1px solid black;
-    flex: 0.3;
+    flex: 0.4;
+    cursor: pointer;
+    margin: 0px 100px;
 }
 
 .login {

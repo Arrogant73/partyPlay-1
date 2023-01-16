@@ -1,0 +1,17 @@
+
+.cat {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cat input {
+    background-color: transparent;
+    font-size: 1em;
+    min-width: 217px;
+    width: 25vw;
+    background-color: #3282B8;
+    color: white;
+    border: 1px solid black;
+    height: 5vh;
+    cursor: pointer;
+}
