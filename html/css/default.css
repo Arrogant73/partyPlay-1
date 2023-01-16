@@ -5,15 +5,22 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    margin: 10px 10px 50px 10px;
+    margin: 0px 10px 53px 10px;
+    padding-top: 10px;
 }
 
-.menu {
-    border: 1px solid black;
+.menubar {
     flex: 0.3;
 }
 
-.menu div {
+.menu {
+    position: absolute;
+    width: 30vw;
+    height: 100vh;
+    background-color: #1b262cc2;
+}
+
+.menubar div {
     width: 10vw;
     font-size: 40px;
     text-align: center;
@@ -76,6 +83,7 @@ main {
     height: 50vh;
     border: 1px solid black;
 }
+
 
 
 
