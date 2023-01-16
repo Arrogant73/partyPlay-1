@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="/js/app.js"></script>
     <link rel="stylesheet" href="./css/default.css">
     <link rel="stylesheet" href="./css/registerForm.css">
     <link rel="stylesheet" href="./css/fontawesome-free-6.2.1-web/css/all.min.css">
@@ -12,8 +13,17 @@
 </head>
 
 <body>
+    <div class="menu" style="display: none;">
+    <div>
+        <a href="">내파티 관리</a>
+    </div>
+    <div>
+        <a href="">고객센터</a>
+    </div>
+    </div>
+    
     <header> <!-- 헤더(로고, 메뉴, 회원정보) -->
-        <div class="menu">
+        <div class="menubar">
             <div><i class="fa-solid fa-bars"></i></div>
         </div>
         <div class="logo">로고</div>
@@ -28,7 +38,37 @@
     </aside>
 
     <main> <!-- 메인 화면(카테고리, 파티칸) -->
-        
+        <div>
+
+        <label>
+            아이디: <input type="text" name="" id="" placeholder="아이디를 입력해주세요">
+        </label>
+
+        <input type="button" name="" id="" value="중복확인">
+        <br>
+
+        <label>
+            비밀번호: <input type="password" name="" id="" placeholder="비밀번호를 입력해주세요">
+        </label>
+        <br>
+
+        <label> 
+            비밀번호 재확인: <input type="password" placeholder="비밀번호를 다시입력해주세요">
+        </label>
+        <br>
+
+        <label>
+            이름: <input type="text" name="" id="" placeholder="이름을 입력해 주세요">
+        </label>
+        <br>
+
+        <label>
+            전화번호: <input type="" name="" id="" placeholder="전화번호를 입력해주세요">
+        </label>
+        <br>
+
+        <input type="submit" name="" id="" value="가입">
+        </div>
     </main> 
 
     <aside> <!-- 오른쪽 광고 -->
