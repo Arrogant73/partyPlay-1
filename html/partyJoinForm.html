@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/partyJoinForm.css">
+    <title>파티 가입</title>
+</head>
+<body>
+    <header> <!-- 헤더(로고, 메뉴, 회원정보) -->
+        <div class="menu">
+            <div><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <div class="logo">로고</div>
+        <div class="login">로그인정보</div>
+    </header>
+    
+    <main>
+        <div class="partyJoin">
+            <form action="#" method="post">
+                <h1><strong>파티 가입</strong></h1>
+                <input type="text" id="id" placeholder="전달할 아이디">
+                <select id="payment">
+                    <option value="" selected>-- 선택 --</option>
+                    <option value="신용카드 또는 체크카드 결제"></option>
+                    <option value="PAYCO"></option>
+                    <option value="계좌 연결"></option>
+                </select>
+                <h4>파티 유지 기간</h4>
+                <input type="month">
+                
+                <h4>연락수단</h4>
+                <input type="email" id="email" placeholder="메일">
+                <input type="tel" id="" placeholder="전화번호">
+                <input type="submit" src="#" value="제출">
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
