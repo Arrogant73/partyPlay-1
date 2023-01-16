@@ -40,10 +40,6 @@ header {
     height: 72vh;
 }
 
-aside {
-    line-height: 50vh;
-}
-
 .ad1 {
     min-width: 150px;
     width: 10vw;
@@ -59,7 +55,9 @@ aside {
 
 main {
     border: 1px solid black;
+    min-width: 650px;
     width: 65vw;
+    background-color: #BBE1FA;
 }
 
 .ad2 {
@@ -76,10 +74,16 @@ main {
 }
 
 
+
+
 footer {
     border: 1px solid black;
     height: 9.7vh;
 }
+
+
+
+
 
 html { font-size: 62.5%; }
 body { font-size: 1em;}
