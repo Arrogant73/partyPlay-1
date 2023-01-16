@@ -1,0 +1,11 @@
+
+.cat {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cat input {
+    background-color: transparent;
+    font-size: 1em;
+    width: 25vw;
+}
