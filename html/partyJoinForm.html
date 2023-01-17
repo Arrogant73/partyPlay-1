@@ -10,34 +10,61 @@
 </head>
 <body>
     <header> <!-- 헤더(로고, 메뉴, 회원정보) -->
-        <div class="menu">
+        <!-- <div class="menu"> -->
             <div><i class="fa-solid fa-bars"></i></div>
         </div>
         <div class="logo">로고</div>
         <div class="login">로그인정보</div>
     </header>
     
-    <main>
+    <div class="mainBox">
+        <aside> <!-- 왼쪽 광고 -->
+            <div class="ad1">
+                <div>광고1</div>
+            </div>
+        </aside>
+
+    <main> <!-- 파티 가입 화면 -->
         <div class="partyJoin">
             <form action="#" method="post">
                 <h1><strong>파티 가입</strong></h1>
-                <input type="text" id="id" placeholder="전달할 아이디">
-                <select id="payment">
-                    <option value="" selected>-- 선택 --</option>
-                    <option value="신용카드 또는 체크카드 결제"></option>
-                    <option value="PAYCO"></option>
-                    <option value="계좌 연결"></option>
-                </select>
-                <h4>파티 유지 기간</h4>
-                <input type="month">
+                <div class="partyJoinInput">
+                    <input type="text" id="id" placeholder="전달할 아이디"><br>
+                    <select id="payment" required>
+                        <option value="" selected>결제 수단 선택</option>
+                        <option value="신용카드 또는 체크카드 결제">신용카드 또는 체크카드 결제</option>
+                        <option value="PAYCO">PAYCO</option>
+                        <option value="계좌 연결">계좌 연결</option>
+                    </select>
+                </div>
+                <br><br>
+
+                <h3>파티 유지 기간</h3>
+                <div class="partyJoinInput">
+                    <input type="month">
+                    <br><br>
+                </div>
                 
-                <h4>연락수단</h4>
-                <input type="email" id="email" placeholder="메일">
-                <input type="tel" id="" placeholder="전화번호">
-                <input type="submit" src="#" value="제출">
+                <h3>연락수단</h3>
+                <div class="partyJoinInput">
+                    <input type="email" id="email" placeholder="메일">
+                    <input type="tel" id="" placeholder="전화번호"><br><br><br>
+                </div>
+                
+                <input type="submit" class="submit" id="submit" src="#" value="제출">
             </form>
         </div>
     </main>
+
+    <aside> <!-- 오른쪽 광고 -->
+        <div class="ad2">
+            <div>광고2</div>
+        </div>
+    </aside> 
+</div>
+    <footer>  <!-- 정보칸 -->
+        <div class="information">정보</div>
+    </footer>
 
 </body>
 </html>

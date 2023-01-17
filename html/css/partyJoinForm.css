@@ -4,3 +4,52 @@
     margin: 10px 10px 50px 10px;
     height: 72vh;
 }
+
+.partyJoin {
+    text-align: center;
+}
+
+.partyJoin input{
+    width: 40%;
+    padding: 16px 0 12px;
+    background: none transparent;
+    font-family: dotum,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-indent: 12px;
+    text-align: center;
+    background-color: white;
+    border: none;
+}
+
+.partyJoin select{
+    width: 40%;
+    padding: 16px 0 12px;
+    background: none transparent;
+    font-family: dotum,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-indent: 12px;
+    text-align: center;
+    background-color: white;
+    border: none;
+}
+
+.submit{
+    margin-top: 20vh;
+    margin-bottom: 20px;
+    min-width: 200px;
+    min-height: 40px;
+    max-width: auto;
+    max-height: auto;
+    text-align: center;
+    background: #0F4C75;
+    color: white;
+    border: none;
+    border-color: #0F4C75;
+    border-radius: 30px / 30px;
+    font-size: large;
+    font-weight: 700;
+}

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/partyManageForm.css">
     <title>파티 관리</title>
 </head>
 <body>
@@ -15,5 +17,45 @@
         <div class="login">로그인정보</div>
     </header>
     
+    <div class="mainBox">
+        <aside> <!-- 왼쪽 광고 -->
+            <div class="ad1">
+                <div>광고1</div>
+            </div>
+        </aside>
+
+    <main> <!-- 파티 관리 화면 -->
+        <div class="partyManage">
+            <form action="#" method="post">
+                <h1><strong>파티 관리</strong></h1>
+                <input type="text" id="title" placeholder="제목" value="(자바 스크립트로 받아올 예정)"><br>
+                <select name="category" id="category" required>
+                    <option value="category" selected>카테고리 선택</option>
+                    <option value="video">영상</option>
+                    <option value="music">음악</option>
+                    <option value="Etc">기타</option>
+                </select>
+
+                <h4>파티 유지 기간</h4>
+                <input type="month">
+
+                <h4>하루당 가격 지정</h4>
+                <div class="price"><input type="number" min="0" max="100000">원</div>
+
+                <div class="submit"><input type="submit" id="modify" src="#" value="수정"></div>
+            </form>
+        </div>
+    </main>
+
+    <aside> <!-- 오른쪽 광고 -->
+        <div class="ad2">
+            <div>광고2</div>
+        </div>
+    </aside> 
+</div>
+    <footer>  <!-- 정보칸 -->
+        <div class="information">정보</div>
+    </footer>
+
 </body>
 </html>
